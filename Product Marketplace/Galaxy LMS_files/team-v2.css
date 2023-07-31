@@ -1,0 +1,219 @@
+/*include-file: team/team.css*/
+/*version: 0.08*/
+.teamcheckin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.checkinContainer .imageContainer {
+  margin: 20px;
+  margin-top: 50px;
+}
+.checkinContainer .informationcontainer {
+  margin: 20px;
+  margin-top: 40px;
+}
+.checkinContainer #SolidBackground-CTA {
+    width: 152px;
+    padding: 12.5px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto", "open-sans", "sans-serif";
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+    color: white !important;
+    background-color: #F26178;
+    margin-top: 20px;
+}
+.checkInSub {
+  font-family: Roboto;
+  font-size: 16px;
+}
+.checkinContainer {
+  display: flex;
+  margin: 20px;
+}
+.checkInTitle {
+  font-size: 30px;
+  font-family: proxima-soft;
+  font-weight: 600;
+  color: #0047BA !important;
+}
+.team {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  border-radius: 25px;
+  background-color: #E8F8F4;
+  flex: 1 1 auto;
+    margin: 20px;
+    width: 50%;
+}
+.checkin {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  margin: 20px;
+  border-radius: 25px;
+  flex: 0 0 400px;
+}
+.checkInText {
+  text-align: left;
+}
+.team div.p-contentslider-title {
+  font-family: Arial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #415364 !important;
+  font-weight: 600;
+  padding: .286rem 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 30px;
+line-height: 25px;
+padding-top: 40px;
+}
+.team a {
+  text-decoration: none;
+  color: #193059;
+}
+.team .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.team .wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.team .flex-item {
+  padding: 5px;
+  width: 320px;
+  margin: 10px;
+  color: #323E48;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+}
+.team .flex-item {
+  animation: 1s ease-in-out both pulse;
+}
+.team .userContainer {
+  display: flex;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  -webkit-box-align: stretch;
+  flex: 1 1 auto;
+  -webkit-box-align: stretch;
+  height: 100%;
+}
+.team .imageContainer {
+  flex: 0 0 auto;
+  min-width: 0;
+  padding-left: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  max-width: 100%;
+}
+.team .image {
+  padding: 12px;
+}
+.team .image img:hover {
+  box-shadow: 0 10px 15px rgba(72, 100, 100, .8);
+  transform: translateX(-5px) translateY(-5px);
+  /*border: 1px solid black;*/
+}
+.team .image img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.team .informationContainer {
+  text-align: left;
+  flex: 0 0 auto;
+  min-width: 0;
+  padding-left: 0;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  max-width: 100%;
+  padding: 8px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.team .userName {
+  flex: 0 0 auto;
+  flex: 0 0 auto;
+  flex-grow: 1;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: auto;
+  max-width: 100%;
+  margin-bottom: auto;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 30px;
+}
+.team .userName a {
+  font-weight: 500;
+}
+.team .userPosition {
+  font-size: 16px;
+}
+.team .userActions {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+  flex-basis: Authorizationflex-grow: 0
+  max-width: 100%;
+  flex-grow: 0;
+  margin-top: auto;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.team .prerender-placeholder{	-webkit-animation-duration:1s;	animation-duration:1s;	-webkit-animation-fill-mode:forwards;	animation-fill-mode:forwards;	-webkit-animation-iteration-count:infinite;	animation-iteration-count:infinite;	-webkit-animation-name:placeHolderShimmer;	animation-name:placeHolderShimmer;	-webkit-animation-timing-function:linear;	animation-timing-function:linear;	background:#f6f7f8;	background:#eee;	background:-webkit-gradient(linear,left top,right top,colorstop(8%,#eee),color-stop(18%,#ddd),color-stop(33%,#eee));	background:linear-gradient(90deg,#eee 8%,#ddd 18%,#eee 33%);	background-size:800px 104px;	position:relative;	border-radius:3px;}
+@-webkit-keyframes placeHolderShimmer{
+	0% {
+		background-position:-468px 0}to{background-position:468px 0}
+}
+@keyframes placeHolderShimmer{
+	0%{background-position:-468px 0}to{background-position:468px 0}
+}
+.team .userActions a {
+    font-weight: 400;
+    color: #787878 !important;
+}

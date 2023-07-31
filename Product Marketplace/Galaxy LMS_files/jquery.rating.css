@@ -1,0 +1,69 @@
+/*
+ * jquery.rating.css
+ * CSOD - Cornerstone OnDemand
+ *
+ */
+
+
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+div.rating-cancel,div.star-rating{float:left;width:13px;height:13px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+div.rating-cancel,div.rating-cancel a{background:url(../images/delete.gif) no-repeat 0 -26px}
+div.star-rating,div.star-rating a{background:url(../images/star_sm.png) no-repeat 0 0px}
+div.rating-cancel a,div.star-rating a{display:block;width:13px;height:100%;background-position:0 0px;border:0}
+div.star-rating-on a{background-position:0 -13px!important}
+div.star-rating-hover a{background-position:0 -26px}
+/* Read Only CSS */
+div.star-rating-readonly a{cursor:default !important}
+/* Partial Star CSS */
+div.star-rating{background:transparent!important;overflow:hidden!important}
+/* END jQuery.Rating Plugin CSS */
+
+span.star-rating{float:left;width:13px;height:13px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+span.star-rating,span.star-rating .half-star{background:url(../images/star_sm2.png) no-repeat 0 0px}
+span.star-rating .half-star{display:block;width:13px;height:100%;background-position:0 0px;border:0}
+span.star-rating-on .half-star{background-position:0 -13px!important}
+span.star-rating-hover .half-star{background-position:0 -26px}
+span.star-rating-link .half-star{cursor:pointer !important}
+span.star-rating-readonly .half-star{cursor:default !important}
+span.star-rating{background:transparent!important;overflow:hidden!important}
+
+
+/* Large Star */
+span.star-rating.lg,span.star-rating.lg .half-star{background-image:url(../images/star_lg.png);width:19px;height:18px;}
+span.star-rating.lg.star-rating-on .half-star{background-position:0 -18px!important}
+
+
+/* CSOD Specific Css */
+.cso-stars {
+    display:inline-block;
+    margin: 0 0 -1px;
+}
+.cso-stars .star-rating-control .rating-cancel{
+    display:none !important;
+}
+.cso-ratefilter-cont{
+    
+}
+.cso-ratefilter-cont .ratefilter{
+    display:block;
+    padding:6px 5px 3px;
+    border:1px solid transparent;
+	cursor: pointer;
+}
+.cso-ratefilter-cont a.ratefilter:hover,
+.cso-ratefilter-cont a.ratefilter.selected{
+    text-decoration:none !important;
+}
+.cso-ratefilter-cont .ratefilter:hover,
+.cso-ratefilter-cont .ratefilter.selected{
+    border:1px solid #BBBBBB;
+    background-color:#E9E9E9;
+}
+#dir-rtl span.star-rating span[data-star="half"].half-star{
+    margin-left:auto!important;
+    margin-right:-6px;
+}
+#dir-rtl span.star-rating-on span[data-star="half"].half-star{
+    margin-left:auto!important;
+    margin-right:-6px;
+}
